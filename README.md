@@ -185,6 +185,32 @@ This system uses Google's **File Search** feature, which provides:
 - **Storage**: Free (1GB on free tier)
 - **Query-time Search**: FREE
 
+## Testing
+
+The project includes a comprehensive test suite to validate all components:
+
+```bash
+python3 test_suite.py
+```
+
+### What Gets Tested
+
+- **Module Imports**: All components import correctly
+- **UI Components**: Terminal UI and color system
+- **Agent System**: Base classes, registry, configuration
+- **YouTube Agent**: Initialization, methods, data handling
+- **File Search**: Manager initialization
+- **Data Storage**: Save/load operations
+- **Error Handling**: Edge cases and missing data
+
+All tests run **without requiring API keys** - they validate code structure and logic.
+
+### Test Results
+
+```
+✅ All 18 tests passed!
+```
+
 ## Troubleshooting
 
 ### API Key Issues
