@@ -1,0 +1,17 @@
+# Multi-Agent CLI System - Python Dependencies
+
+# Google Gemini AI
+google-generativeai>=0.8.0
+
+# YouTube API
+google-api-python-client>=2.100.0
+youtube-transcript-api>=0.6.1
+
+# OAuth (for YouTube API)
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+
+# Utility libraries
+python-dateutil>=2.8.2
+requests>=2.31.0
