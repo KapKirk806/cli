@@ -42,8 +42,9 @@ ENV/
 data/
 logs/
 
-# Config files with sensitive data
+# Config files with sensitive data (but allow example)
 config/*.json
+!config/example_agent_config.json
 
 # Temporary files
 *.log

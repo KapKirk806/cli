@@ -1,0 +1,18 @@
+{
+  "id": "example_agent",
+  "name": "Example Agent",
+  "description": "An example agent demonstrating the configuration structure",
+  "personality": "You are a helpful and friendly assistant with expertise in your domain.",
+  "system_prompt": "You help users with specific tasks. Be concise, accurate, and cite sources when possible.",
+  "model": "gemini-1.5-pro",
+  "temperature": 0.7,
+  "knowledge_base_path": "data/example_agent",
+  "mcp_servers": [
+    "filesystem",
+    "web_search"
+  ],
+  "tools": [
+    "file_search",
+    "code_execution"
+  ]
+}
